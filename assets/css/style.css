@@ -1,0 +1,262 @@
+h1, h2, h5 {
+	font-family: Impact, 'Arial', 'Helvetica Neue';
+}
+
+h1 {
+	text-align: center;
+}
+
+h2
+ {
+	color: #62e6c7;
+	text-shadow: 1px 0 #2f4f4f,0 1px #2f4f4f,1px 0 #2f4f4f,0 1px #2f4f4f;
+}
+
+h3 {
+	font-family: 'Arial';
+}
+
+h4 {
+	font-family: 'Arial', 'Helvetica Neue';
+	font-size: 20px;
+}
+
+body, div {
+	font-size: 27px;
+	font-family: Arial;
+	vertical-align: baseline;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	font-family: Arial;
+	vertical-align: baseline;
+	text-align: justify;
+	line-height: 150%;
+}
+
+body {
+	margin: 0 0 120px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	padding: 10px;
+	border-top: 50px solid #a0ffe9;
+	background: #2f4f4f;
+}
+
+/* hover setup */
+
+a:link {
+    color: #2f4f4f;
+}
+
+a:visited {
+	color: #2f4f4f;
+}
+
+a:hover {
+	color: #abffa7;
+}
+
+a:active {
+	color: #fffea7;
+}
+
+img:hover {
+	outline: 3px solid #abffa7;
+  	outline-offset: 1px;
+}
+
+img {
+	outline: 3px solid black;
+	margin: 3px;
+}
+
+header {
+	width: 100%;
+}
+
+/* how do you change the background once each box is filled out */
+
+.formfield:visited {
+	background: blue;
+}
+
+.formfield:required {
+	background: #fc6c85;
+}
+
+.formfield:hover {
+	background: green;
+}
+
+.formfield:active {
+	background: #7FFFD4;
+}
+
+.formfield:visited {
+	background: blue;
+}
+
+#Name {
+    color: #2f4f4f;
+	float: left;
+	width: 20%;
+	background: #a0ffe9;
+	padding: 20px;
+	border: 20px solid #a0ffe9;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+nav {
+	text-align: center;
+	float: right;
+	margin-top: 100px;
+	margin-right: 25px;
+}
+
+#full {
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	background: #F1F1D4;
+	background-image: url(../images/background.jpg);
+
+}
+
+aside {
+	background: white;
+	width: 45%;
+	float: left;
+	text-align: left;
+	color: black;
+	padding: 40px;
+	margin: 25px;
+}
+
+#profilepic {
+	float: left;
+	margin: 4px;
+}
+/*this doesn't work find the problem caption displays w p text*/
+figure {
+	display: inline;
+}
+
+figcaption {
+	display: block;
+	text-align: center;
+}
+
+#Connect {
+	background: white;
+	width: 16.5%;
+	float: right;
+	color: #a0ffe9;
+	text-shadow: 1px 0 #2f4f4f,0 1px #2f4f4f,1px 0 #2f4f4f,0 1px #2f4f4f;
+	padding: 40px;
+	margin: 25px;
+}
+
+table {
+	width: 100%;
+}
+
+.hangman {
+	position: relative;
+	width: 100%;
+}
+
+.rpggame {
+	position: relative;
+	width: 100%;
+}
+
+.trivia {
+	position: relative;
+	width: 100%;
+}
+
+.rutgers {
+	position: relative;
+	width: 100%;
+}
+
+.rockpapper {
+	position: relative;
+	width: 100%;
+}
+
+h4 {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%
+}
+
+h4 span {
+	color: black;
+	font: arial;
+	letter-spacing: -1px;
+	background: #a0ffe9;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#caption {
+	float: left;
+}
+
+@media only screen and (min-width: 980px) {
+    /* For desktop: */
+   header {width: 100%;}
+   aside {width: 55%;}
+   footer {width: 100%;}
+   #Name {width: 35%;}
+   #full {width: 100%;}
+   #Connect {width: 15%;} 
+ }
+
+
+   @media only screen and (max-width: 768px) and (min-width: 641px) {
+    /* For laptop: */
+   header {width: 100%; margin-top: 0px;}
+   aside {width: 75%; float: none !important; margin: 7%;}
+   footer {width: 100%;}
+   #nav {width: 50%;}
+   #Name {width: 20%; color: purple;}
+   #full {width: 100%;}
+   #Connect {width: 75%; float: none !important; margin: 7%;} 
+}
+
+
+	@media only screen and (max-width: 640px) {
+	header {width: 100%; padding-top: 0px}
+   	aside {width: 80%; float: none !important; margin: 2%;}
+   	footer {width: 100%;}
+   	#nav {width: 50%;}
+   	#Name {width: 15%; color: red;}
+   	#full {width: 100%;}
+   	#Connect {width: 80%; float: none !important; margin: 2%;} 
+
+	}
+
+
+
+
+
+    
